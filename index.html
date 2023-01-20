@@ -216,14 +216,94 @@
 
                         <fieldset class="reserve__fieldset">
                             <legend class="reserve__legend">Дата и время</legend>
-                            
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="service">
-                                <span class="radio__label">стрижка ножницами</span>
-                            </label>
+
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="month">
+                                    <span class="radio__label">Январь</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="month">
+                                    <span class="radio__label">Февраль</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="month">
+                                    <span class="radio__label">Март</span>
+                                </label>
+
+                            </fieldset>
+
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">18 января</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">19 января</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">20 января</span>
+                                </label>
+
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">21 января</span>
+                                </label>
+
+                            </fieldset>
+
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">10:00-11:30</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">11:30-13:00</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">13:00-14:30</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">14:30-16:00</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">16:00-17:30</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">17:30-19:00</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">19:00-20:30</span>
+                                </label>
+
+                            </fieldset>
 
                         </fieldset>
                     </div>
+
+                    <button class="reserve__btn main-link">Записаться</button>
                 </form>
             </div>
         </div>
@@ -231,7 +311,22 @@
 
     <div class="footer">
         <div class="container">
-
+            <img class="footer__logo" src="img/logo.svg" alt="Logo Chik Chik">
+            <nav class="footer__navigation navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a href="#price" class="navigation__link">Стоимость услуг</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#about" class="navigation__link">О нас</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="footer__design">
+                <li class="footer__persona">Designer: Anastasia Ilina</li>
+                <li class="footer__persona">Developer: Anatoliy Pereguda</li>
+            </ul>
+            <p class="footer__copyright">© chik chik, 2023</p>
         </div>
     </div>
 
