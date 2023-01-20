@@ -4,6 +4,8 @@ Intensive ChikChik BarberShop from METHED Online School
 [VK](https://vk.com/methed)    
 [Dzen](https://dzen.ru/id/622c3b7fdf44ed7ca95571e7)    
 
+## lessons ##
+
 [lesson-00](https://github.com/Pereguda/studying-chikchik-barbershop/blob/main/lesson-00.md)    
 
 [lesson-01](https://github.com/Pereguda/studying-chikchik-barbershop/blob/main/lesson-01.md)    
