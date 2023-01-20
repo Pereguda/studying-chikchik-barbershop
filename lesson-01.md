@@ -4,8 +4,6 @@ Intensive ChikChik BarberShop from METHED Online School
 [VK](https://vk.com/methed)    
 [Dzen](https://dzen.ru/id/622c3b7fdf44ed7ca95571e7)    
 
-## lesson-00 ##    
-
 ## lesson-01 ##    
 
 [Макет ChikChik в Figma](https://www.figma.com/file/OeGwXCiT0ZrKIcGQpWE7hg/chik-chik-(Intensive)?t=KuWCEIjM2ifNHlRr-6)    
